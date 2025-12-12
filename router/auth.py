@@ -43,5 +43,6 @@ async def login(input :login ) :
         return {"name": "김지성"}
     if student_id == 20242870 :
         return {"name" : "이정진"}
-
+    if student_id == 20241682 :
+        return {"name" : "신은서"}
     return JSONResponse(status_code=200, content={"token": token})
