@@ -41,7 +41,7 @@ async def login(input :login ) :
         raise HTTPException(status_code=401, detail="정보가 없습니다")
     if student_id == 20242869 :
         return {"name": "김지성"}
-    if student_id == 20242870 :
+    if student_id == 20243069 :
         return {"name" : "이정진"}
     if student_id == 20241682 :
         return {"name" : "신은서"}
